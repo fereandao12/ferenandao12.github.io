@@ -2,6 +2,10 @@ body{
 	margin: 0;
 	background-color: #566573;
 	font-family: "Helvetic", "Arial", sans-serif;
+	font-size: 2vw;
+	line-height: 3vw;
+	color: white;
+
 }
 
 header{
@@ -13,7 +17,15 @@ header{
 
 header h1{
 	color: white;
+	font-size: 6vw;
 	
+}
+
+h1, h2{
+	 font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vw;
 }
 
 header img{
@@ -23,4 +35,56 @@ header img{
 	border: 20px solid white;
 
 
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 3vw;
+	color: #121523;
+	margin: 40px 0 10px;
+}
+
+a{
+	color: #121523;
+}
+
+a:hover{
+	color: white;
+	background-color: darkred;
+}
+
+footer{
+	background-color: #17202A;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: lightgrey;
+	text-align: center;
+	font-style: italic;
+	margin-top: 0;
 }
