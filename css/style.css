@@ -1,10 +1,77 @@
 body, html{
 	padding: 0;
 	margin: 0;
+	background-color: black;
+	scroll-behavior: smooth;
+}
+
+header{
+	background: rgb(13, 13, 14);
+	margin-bottom: 220px;
+	position: relative;
+	background-size: cover;
 	
 }
 
+header h1{
+	color: rgb(189, 0, 0);
+	margin: 40px 0px 40px 0px;
+}
+
+header p{
+	color: whitesmoke;
+}
+
+h1{
+	font-family: "Freeman", sans-serif;
+	font-size: 120px;
+	font-weight: 800;
+	line-height: 88%;
+}
+
+
+
+.center-h2{
+	text-align: center;
+	font-size: 70px;
+	margin: 0px 0px 30px 0px;
+}
+
+section h2{
+	color: rgb(189, 0, 0);
+}
+
+ul li{
+	color: whitesmoke;
+	list-style-type: none;
+	margin: 10px 0;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2{
+	font-family: "Freeman", sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 90%;
+}
+
 .intro-img{
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+figcaption{
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+	color: whitesmoke;
+}
+
+p{
+	color: white;
+}
+
+img{
 	max-width: 100%;
 }
 
@@ -23,7 +90,25 @@ nav ul li{
 	display: inline-block;
 	margin: 0 30px;
 	color: white;
+	font-size: 20px;
 	
+}
+
+nav ul a{
+	text-decoration: none;
+	color: whitesmoke;
+	
+}
+
+nav ul a:hover{
+	cursor: pointer;
+	color: rgba(252, 249, 249, 0.55);
+}
+
+
+
+li, p{
+	font-family: "Work Sans", sans-serif;
 }
 
 li.separator-nav{
@@ -31,4 +116,172 @@ li.separator-nav{
 	width: 80px;
 	position: relative;
 	top: -5px;
+}
+
+
+.project{
+	margin: 30px 0;
+	padding: 35px;
+}
+
+
+.color2{
+	background-color: rgb(26, 25, 25);
+	margin-top: 10px;
+}
+
+
+.button{
+	display: inline-block;
+	margin-top: 40px;
+	color: white;
+	padding: 10px 30px;
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 30px;
+}
+
+header .button:hover{
+	background: black;
+	transition: background 0.35s ease-in-out, color 0.35s ease-in-out;
+}
+
+section .button:hover{
+	background: rgb(88, 2, 2);
+	transition: background 0.35s ease-in-out, color 0.35s ease-in-out;
+}
+
+
+footer{
+	position: relative;
+	background-size: contain;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+	background-color: rgb(14, 13, 13);
+}
+footer p{
+	text-align: center;
+	padding: 30px 0;
+}
+
+
+/*REGISTER */
+
+
+.register{
+	display: none;
+}
+
+.register.show{
+	display: block;
+}
+
+.content{
+	width: 1000px;
+	height: 550px;
+    box-sizing: border-box;
+    position: fixed;
+	background-color: white;
+	border-radius: 6px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	padding: 0 50px 50px;
+	z-index: 3;
+	
+}
+
+.register .blanket{
+    background-color: rgba(0, 0, 0, .7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+	z-index: 0;
+	width: 100%;
+}
+
+.content label{
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+
+.register .row2::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.register .item{
+	float: left;
+	width: 415px;
+	margin-left: 40px;
+	text-align: left;
+}
+
+.register .item:first-child{
+	margin-left: 0;
+}
+
+.register .item label{
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+.register .item input[type="text"]{
+
+	display: block;
+	font-size: 25px;
+    font-weight: bold;
+    border: 3px solid #111111;
+    height: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 10px;
+}
+
+
+
+
+.register .close{
+	background-color: red;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-indent: -999px;
+    cursor: pointer;
+}
+
+button.cta{
+	border-radius: 20px;
+	width: 250px;
+	height: 70px;
+	background: rgb(94, 9, 9);
+	color: white;
+	border: none;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 70px;
+	box-shadow: 0px 11px 20px 3px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0px 11px 20px 3px rgba(0,0,0,0.23);
+	box-shadow: 0px 11px 20px 3px rgba(0,0,0,0.23);
+}
+
+.cta:hover{
+	background: rgb(179, 23, 23);
+	cursor: pointer;
 }

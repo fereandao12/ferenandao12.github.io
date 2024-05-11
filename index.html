@@ -3,6 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="JS/script.js" type="text/javascript"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Freeman&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.css">
 	<title>Dvloper-website</title>
@@ -10,11 +14,11 @@
 <body>
 	<nav>
 		<ul>
-			<li>About</li>
-			<li>Characters</li>
+			<li><a href="https://store.steampowered.com/search/?developer=DVloper&ndl=1" target="_blank">Steam</a></li>
+			<li><a href="https://play.google.com/store/apps/developer?id=DVloper&hl=es_VE" target="_blank">Playstore</a></li>
 			<li class="separator-nav"></li>
-			<li>Game</li>
-			<li>Shopping</li>
+			<li><a href="#games">Games</a></li>
+			<li><a href="#javascript:()" onclick="showRegister();">Register</a></li>
 		</ul>	
 	</nav>
 
@@ -30,39 +34,156 @@
 				<div class="col">
 					<h1>Dvloper <br> universe</h1>
 					<p>He is known for being the creator of multiple horror games, he reached his maximum popularity with his game "Granny", released in November 2017, it is a puzzle game where we will have 5 days to escape from the house of an evil granny.</p>
-					<a href="">Dvloper In Steam</a>
+					<a href="https://store.steampowered.com/search/?developer=DVloper&ndl=1" target="_blank" class="button">Dvloper In Steam</a>
 				</div>
 			</div>
 		</div>
 	</header>
 
-	<section>
-		<h2>Sagas destacadas: </h2>
+	<section class="project">
+		<h2 class="center-h2">Sagas destacadas: </h2>
 		<ul>
-			<li>01_Slendrinna</li>
-			<li>02_Granny</li>
-			<li>03_The Twins</li>
-			<li>04_Hote Insanity</li>
+			<li>Slendrinna</li>
+			<li>Granny</li>
+			<li>The Twins</li>
+			<li>Hote Insanity</li>
 		</ul>
 	</section>
 
 	<!--Projects-->
 
-
+<div id="games"></div>
 	<!--Slendrinas-->
-	<section>
+	<section class="project color2">
 		<div class="container text-center">
 			<div class="row">
 				<div class="col">
-					<figure></figure>
+					<figure>
+						<img src="img/Slendrinas-saga.jpg" alt="">
+						<figcaption>Slendrina Horror game</figcaption>
+					</figure>
 				</div>
 				<div class="col">
-					<h2></h2>
-					<p></p>
-					<a href="">Investigar</a>
+					<h2>Slendrina <br>Horror <br>Game</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet officia aliquid reiciendis, vel, aliquam ab quidem, praesentium voluptas omnis explicabo repellat asperiores minima nemo sequi quod dolorum rerum similique non!
+					Omnis velit dolor ipsum ratione in, blanditiis exercitationem debitis. Exercitationem, quisquam odio quae beatae esse corrupti totam iure eos possimus voluptate autem natus blanditiis eum rerum earum voluptatum repellat eius.</p>
+					<a href="" class="button">Ver más</a>
 				</div>
 			</div>
 		</div>
 	</section>	
+
+	<!--Granny-->
+	<section class="project">
+		<div class="container text-center">
+			<div class="row">
+
+			<div class="col">
+				<h2>Granny <br> Horror <br> Game</h2>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe ut provident consequatur illo suscipit totam eos velit laborum quas, nostrum cumque optio dolor animi at odio pariatur porro reprehenderit veritatis?
+				Maxime molestiae quia ut dignissimos nostrum quibusdam, dolorum reprehenderit laboriosam cumque expedita sit iusto aperiam, iure amet tempore inventore. Eligendi accusantium dicta ipsum facere placeat iste numquam sequi illum repudiandae?</p>
+				<a href="" class="button">Ver más</a>
+			</div>
+
+			<div class="col">
+				<figure>
+					<img src="img/Granny.jpg" alt="">
+					<figcaption>Granny Horror Game</figcaption>
+				</figure>
+			</div>
+			
+			</div>
+		</div>
+	</section>
+
+
+	<!--The Twins-->
+
+	<section class="project color2">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col">
+					<figure>
+						<img src="img/the-twins.jpg" alt="">
+						<figcaption>The Twins Game</figcaption>
+					</figure>
+				</div>
+
+				<div class="col">
+					<h2>The <br> Twins</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repellendus eum laudantium ex, iusto voluptate nobis delectus praesentium fugiat, quae modi ut perspiciatis inventore quod libero ad. Suscipit, architecto odio.
+					Iure adipisci rem, ullam magnam eaque reprehenderit deserunt suscipit atque, dicta placeat tenetur incidunt neque? Atque corrupti fugit, est nisi assumenda accusantium aliquam eveniet maiores doloribus tempore, autem at repellendus.</p>
+					<a href="" class="button">Ver más</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Hotel Insanity-->
+
+	<section class="project">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col">
+					<h2>Hotel <br> Insanity</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet enim veniam officia quas perspiciatis. Officia recusandae, neque, aliquid alias voluptates vel commodi modi id eos ipsam doloribus quam veniam corporis.
+					Porro at amet similique voluptatem quia quam sed sit, vel labore! Molestias id impedit recusandae ipsa fuga eum nemo in dignissimos amet, repudiandae consectetur esse blanditiis accusamus possimus illum iusto.</p>
+					<a href="" class="button">Ver más</a>
+				</div>
+				<div class="col">
+					<figure>
+						<img src="img/hotel.jpg" alt="">
+						<figcaption>Hotel Insanity</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="register" id="register">
+		<div class="blanket"></div>
+		<div class="content">
+			<h2>Fill In Your Details</h2>
+			<form action>
+				<div class="row2">
+					<div class="item">
+						<label>Your First Name</label>
+						<input type="text" placeholder="Jorge">
+					</div>
+					<div class="item">
+						<label>Your Last Name</label>
+						<input type="text" placeholder="Hernandez">
+					</div>
+				</div>
+				<div class="row2">
+					<div class="item">
+						<label>E-Mail</label>
+						<input type="text" placeholder="Example@gmail.com">
+					</div>
+					<div class="item">
+						<label>NickName</label>
+						<input type="text" placeholder="JorgXnX">
+					</div>
+				</div>
+				<button class="cta">Register!</button>
+			</form>
+			<button class="close" onclick="hideRegister();" onmousedown="sound.play()">Close</button>
+		</div>
+	</div>
+
+	
 </body>
+
+<footer>
+	<p>Created by &copy;ElFerCrystal</p>
+</footer>
+
+
+
+
+
+
+
+
+
 </html>
