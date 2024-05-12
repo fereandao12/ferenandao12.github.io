@@ -285,3 +285,29 @@ button.cta{
 	background: rgb(179, 23, 23);
 	cursor: pointer;
 }
+
+
+@media (max-width: 970px) {
+
+    .content{
+		transform: scale(0.65);
+		position: fixed;
+		top: 25%;
+		left: 0%;
+		
+		transform: translate(30%, -18%), scale(0.65);
+	}
+	
+  }
+
+  @media (max-width: 750px) {
+
+	.content{
+		transform: scale(0.55);
+		position: fixed;
+		top: 25%;
+		left: -18%;
+
+
+	}
+  }
